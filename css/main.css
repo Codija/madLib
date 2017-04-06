@@ -1,0 +1,82 @@
+body {
+    font-size: 20px;
+    background-image: url("https://pixabay.com/get/e837b50a2efd013ed1534705fb0938c9bd22ffd41db8104494f3c97bae/books-1245690_1920.jpg");
+}
+
+main {
+    text-align: center;
+    margin: auto;
+    line-height: 200%;
+    margin-top: 150px;
+    max-width: 700px;
+    height: 250px;
+    padding: 20px;
+    background: rgb(255, 77, 77);
+    background: rgba(255, 77, 77, 0.5);
+    color: #fff;
+    text-shadow: 0 0 5px black;
+    border-radius: 8px;
+}
+
+h1 {
+  font-family: 'Shadows Into Light';
+}
+
+button {
+    margin: 40px;
+}
+
+input {
+    font-size: 24px;
+    width: 70%;
+}
+
+.fill {
+    background: white;
+    color: red;
+    border-bottom: 2px black solid;
+    font-family: 'Shadows Into Light';
+    padding: 0 6px;
+    margin: 4px;
+    text-shadow: none;
+}
+
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    font-family: 'Shadows Into Light';
+}
+
+button:hover {
+    background-color: #fff;
+    color: #4CAF50;
+}
+
+footer{
+  font-size: 35px;
+  position: fixed;
+  bottom: 10%;
+  left: 45%;
+  color:#fff;
+  font-family: 'Shadows Into Light';
+  text-shadow: 0 0 5px black;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+      margin-top: 0;
+      height: 100%;
+    }
+    footer {
+      bottom: 5%;
+      left: 30%;
+    }
+}
